@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TATA'S FOOD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--Slick CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  </head>
+
+  <style>
+      .titulo{
+        font-family: URW Chancery L, cursive;
+        src: url('sans-serif');
+      }
+      .bg-azul{
+          background-color: #aee0eb;
+      }
+      .bg-azul2{
+        background-color: rgb(19, 177, 177);
+      }
+      .bg-image{
+        background-image: url(https://i.pinimg.com/originals/c0/a8/3e/c0a83e26bea2865167c08ed1f2afcf8e.jpg)
+      }
+      #menu ul{
+        margin: 0;
+        background-color: #6bb6c7;
+        list-style: none;
+      }
+      #menu ul li{
+        display: inline;
+      }
+      #menu ul li a{
+        padding: 10px 25px;
+        display: inline-flexbox;
+        color:white;
+        text-decoration: none;
+      }
+      #menu ul li a:hover{
+        color:teal;
+      }
+      .border{
+        color: 4px solid teal!important;
+      }
+      .imagens img{
+        padding: 2px;
+      }
+      #comida ul{
+        margin: 0;
+      }
+      #comida ul li{
+        padding: 0px 125px;
+        display: inline-block;
+        color: black;
+        text-decoration:none;
+      }
+      #comida ul li a:hover{
+        color:teal
+      }
+      .carousel{
+         width: 1000px;
+         margin: 0 auto;
+      }
+      .zoom{
+      overflow: hidden
+      }
+      .zoom img {
+      max-width:10%
+      -moz-transition (all 0.2s);
+      -webkit-transition-all: 0.2s;
+      transition: all 0.2s;
+      }
+      .zoom:hover img{
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      }
+
+  </style>
+
+  <body class="bg-image">
+
+
+    <div id="menu">
+      <ul>
+         <li><a  class="zoom" href="#"><img src="img/logo2.png" width="170" height="55"></a></li>
+         <li><a href="#">Receitas de doces</a></li>
+         <li><a href="#">Receitas de Salgados</a></li>
+         <li><a href="#">Comidas Típicas</a></li>
+         <li><a href="#">Comidas Veganas</a></li>
+         <li><a href="#">Alimentação Saúdavel</a></li>
+         <li><a text-info href="#">Envie sua Receita</a></li>
+
+      </ul>
+   </div>
+      <div class="container bg-azul">
+        <div class="titulo">
+         <h1 class="text-center"><br>Bolo de Cenoura</h1>
+        </div>
+        <div class="row">
+           <div class="col-md-3"></div>
+           <div class="col-md-6">
+              <img class="w-100 border border-3 border-info p-2 bg-white" src="https://www.marolacomcarambola.com.br/wp-content/uploads/2016/05/receita-de-bolo-de-cenoura-6.jpg">
+           </div>
+          <div class="col-md-3"></div>
+      </div>
+    
+    <!--INGREDIENTES-->
+    <div class="row">
+    <div class="col-md-6">
+      <h2><br>Ingredientes</h2>
+      <hr size="4">
+      <h3>MASSA:</h3>
+      <ul>
+        <li>1/2 xícara (chá) de óleo</li>
+        <li>3 cenouras médias raladas</li>
+        <li>4 ovos</li>
+        <li>2 xícaras (chá) de açúcar</li>
+        <li>2 e 1/2 xícaras (chá) de farinha de trigo</li>
+        <li>1 colher (sopa) de fermento em pó</li>
+      </ul>
+
+      <h3><br><br>COBERTURA:</h3>
+      <ul>
+        <li>1 colher (sopa) de manteiga</li>
+        <li>3 colheres (sopa) de chocolate em pó</li>
+        <li>1 xícara (chá) de açúcar</li>
+        <li>1 xícara (chá) de leite</li>
+      </ul>
+  </div>
+    <!--MODO DE PREPARO-->
+    <div class="col-md-6">
+    <h2><br>Modo de Preparo</h2>
+    <hr size="4">
+    <h3>MASSA:</h3>
+    <ol>
+        <li>Em um liquidificador, adicione a cenoura, os ovos e o óleo, depois misture.</li>
+        <li>Acrescente o açúcar e bata novamente por 5 minutos.</li>
+        <li>Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.</li>
+        <li>Acrescente o fermento e misture lentamente com uma colher.</li>
+        <li>Asse em um forno preaquecido a 180° C por aproximadamente 40 minutos.</li>
+    </ol>
+    <h3><br>COBERTURA:</h3>
+    <ol>
+        <li>Despeje em uma tigela a manteiga, o chocolate em pó, o açúcar e o leite, depois misture.</li>
+        <li>Leve a mistura ao fogo e continue misturando até obter uma consistência cremosa, depois despeje a calda por cima do bolo.</li>
+    </ol>
+</div>
+  </div>
+    <!--OBS-->
+    <hr size="4">
+    <h4 class="text-center">Informações Adicionais:</h4>
+    <p>Se você prefere um bolo de cenoura cremoso, faça uma calda para umedecer seu bolo! Basta adicionar 1 xícara de açúcar e 1 xícara de água em uma leiteira e, assim que levantar fervura, desligue o fogo. Quando esfriar completamente, você pode regar seu bolo. Se quiser incrementar essa mistura para deixar ainda mais gostoso e dar um perfume ao seu bolo de cenoura, você pode adicionar raspas de laranja, essência de baunilha ou um pouco de canela. Dessa forma, você vai ter um bolo de cenoura molhadinho e delicioso!</p>
+
+    <!--IMAGENS DO SLICK-->
+    <br><h3>Veja também:</h3>
+    <div class="slider">
+      
+        <div class="item"><img src="https://menutrip.com.br/wp-content/uploads/2017/05/image7-649x432.jpg"width="320" height="205" alt="Feijoada"></div>
+        <div class="item"><img src="https://www.sabornamesa.com.br/media/k2/items/cache/139702ff92e93f29d84ebf976a5dfd8f_L.jpg"width="320" height="205" alt="Almoço Vegano"></div>
+        <div class="item"><img src="https://coolicias.ao/wp-content/uploads/2021/03/Receita-de-Doces-faceis-de-fazer-de-Bombom-de-Travessa.jpg"width="320" height="205" alt="Bombom de Travessa"></div>
+        <div class="item"><img src="https://i.ytimg.com/vi/FtsdB5A64i0/maxresdefault.jpg"width="320" height="205" alt="Torta de Frango"></div>
+        <div class="item"><img src="https://img.itdg.com.br/tdg/images/recipes/000/060/647/8835/8835_original.jpg?mode=crop&width=710&height=400"width="320" height="205" alt="Churros Caseiro"></div>
+        <div class="item"><img src="https://img.itdg.com.br/tdg/images/recipes/000/001/154/327136/327136_original.jpg?mode=crop&width=710&height=400"width="320" height="205" alt="Baião de Dois"></div>
+        <div class="item"><img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-hamburguer-vegano-1200x774.jpg"width="320" height="205" alt="Hambúrguer Vegano"></div>
+        <div class="item"><img src="https://catracalivre.com.br/wp-content/uploads/2020/12/img-4917.jpg"width="320" height="205" alt="Bolo Salgado"></div>
+    </div>
+
+     <!--JQUERY PARA O SLICK-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Slick JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+      <!-- JS DO SLICK-->
+    <script type="text/javascript">
+    $(document).ready(function(){
+     $('.slider').slick({
+      infinite: true,
+      dots: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      variableWidth: true,
+      centerMode: true,
+      padding: 20,
+     });
+ });
+    </script>
+    
+    <br><br><h5 class="bg-azul2 text-dark text-center" >Desenvolvido por: Thaina Lima Matos</h5>
+   </div>
+</body>
+</html>
